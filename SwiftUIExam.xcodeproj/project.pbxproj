@@ -13,6 +13,7 @@
 		9B43DC21236EB5CC00A1C69B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B43DC20236EB5CC00A1C69B /* Assets.xcassets */; };
 		9B43DC24236EB5CC00A1C69B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B43DC23236EB5CC00A1C69B /* Preview Assets.xcassets */; };
 		9B43DC27236EB5CC00A1C69B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B43DC25236EB5CC00A1C69B /* LaunchScreen.storyboard */; };
+		9B43DC2F236EB5FD00A1C69B /* Problem1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B43DC2E236EB5FD00A1C69B /* Problem1View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9B43DC23236EB5CC00A1C69B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B43DC26236EB5CC00A1C69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B43DC28236EB5CC00A1C69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B43DC2E236EB5FD00A1C69B /* Problem1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		9B43DC19236EB5CA00A1C69B /* SwiftUIExam */ = {
 			isa = PBXGroup;
 			children = (
+				9B43DC2E236EB5FD00A1C69B /* Problem1View.swift */,
 				9B43DC1A236EB5CA00A1C69B /* AppDelegate.swift */,
 				9B43DC1C236EB5CA00A1C69B /* SceneDelegate.swift */,
 				9B43DC1E236EB5CA00A1C69B /* ContentView.swift */,
@@ -148,6 +151,7 @@
 			files = (
 				9B43DC1B236EB5CA00A1C69B /* AppDelegate.swift in Sources */,
 				9B43DC1D236EB5CA00A1C69B /* SceneDelegate.swift in Sources */,
+				9B43DC2F236EB5FD00A1C69B /* Problem1View.swift in Sources */,
 				9B43DC1F236EB5CA00A1C69B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +292,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIExam/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIExam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +312,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIExam/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIExam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
